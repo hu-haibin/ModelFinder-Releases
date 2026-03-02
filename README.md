@@ -1,356 +1,356 @@
-<div align="center">
+﻿<div align="center">
 
 # ModelFinder
 
-### 🚀 ComfyUI 一站式管理启动器
+### ComfyUI All-in-One Launcher and Manager
 
-**一键部署 · 工作流分析 · 模型匹配 · AI 诊断 · 批量出图**
+**One-click deployment · Workflow dependency analysis · Model matching · AI diagnosis · Batch rendering**
 
-[![GitHub Release](https://img.shields.io/github/v/release/hu-haibin/ModelFinder-Releases?style=for-the-badge&logo=github&label=最新版本)](https://github.com/hu-haibin/ModelFinder-Releases/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/hu-haibin/ModelFinder-Releases/total?style=for-the-badge&logo=github&label=下载量)](https://github.com/hu-haibin/ModelFinder-Releases/releases)
-[![Platform](https://img.shields.io/badge/平台-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows)](https://github.com/hu-haibin/ModelFinder-Releases/releases/latest)
+[![GitHub Release](https://img.shields.io/github/v/release/hu-haibin/ModelFinder-Releases?style=for-the-badge&logo=github&label=Latest%20Release)](https://github.com/hu-haibin/ModelFinder-Releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/hu-haibin/ModelFinder-Releases/total?style=for-the-badge&logo=github&label=Downloads)](https://github.com/hu-haibin/ModelFinder-Releases/releases)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows)](https://github.com/hu-haibin/ModelFinder-Releases/releases/latest)
 
-[**📥 立即下载**](https://github.com/hu-haibin/ModelFinder-Releases/releases/latest) · [**📋 更新日志**](https://github.com/hu-haibin/ModelFinder-Releases/releases) · [**🐛 反馈问题**](https://github.com/hu-haibin/ModelFinder-Releases/issues)
+[**Download Now**](https://github.com/hu-haibin/ModelFinder-Releases/releases/latest) · [**Release Notes**](https://github.com/hu-haibin/ModelFinder-Releases/releases) · [**Report Issues**](https://github.com/hu-haibin/ModelFinder-Releases/issues)
 
 ---
 
 </div>
 
-![ModelFinder 主界面 — 深色主题，终端控制台 + 浮动操作岛](screenshots/home.png)
+![ModelFinder main interface - dark theme, terminal console + floating action island](screenshots/home.png)
 
-## ✨ 为什么选择 ModelFinder？
+## Why ModelFinder?
 
-ModelFinder 是一款专为 **ComfyUI** 用户打造的 Windows 桌面启动器与管理工具。无论你是刚入门 AI 绘画的萌新，还是管理多个工作流的高阶玩家，ModelFinder 都能让你的 ComfyUI 使用体验更简单、更高效。
+ModelFinder is a Windows desktop launcher and management tool built specifically for **ComfyUI** users. Whether you are just getting started with AI image generation or managing multiple advanced workflows, ModelFinder makes your ComfyUI workflow simpler and faster.
 
-> 💡 **告别黑窗口，告别复杂配置，告别缺模型报错** —— 从部署到出图，一个工具全搞定。
-
----
-
-## 🎯 核心功能一览
-
-### 🖱️ 一键部署 ComfyUI
-
-无需手动配置 Python 环境，只需几次点击即可完成从零到可运行的全流程：
-
-- **版本选择**：从 ComfyUI 官方 Release 列表中选择版本，自动下载
-- **GPU 加速选择**：提供 4 种模式 —— NVIDIA 默认 / CUDA 12.6 / CUDA 12.8（推荐） / AMD ROCm
-- **可选预装组件**：部署时可勾选安装 ComfyUI-Manager、DD 中文翻译、KJ Nodes、WAN Video Wrapper 等常用插件
-- **可视化安装进度**：分步骤进度条展示（下载 → 解压 → 安装组件），告别黑窗口焦虑
-- **故障恢复**：下载失败可切换镜像源重试、导入本地安装包、或跳过失败步骤
-- **部署完成后一键启动**：完成后直接点击「启动 ComfyUI」
-
-![快速部署 — 选择版本、GPU 加速、预装组件，一键开始](screenshots/deployment.png)
-
-![部署完成 — 全部步骤成功，一键启动 ComfyUI](screenshots/deployment-progress.png)
+> Skip black console windows, skip complex setup, skip "missing model" errors. From deployment to generation, one tool handles the full flow.
 
 ---
 
-### 🏠 首页：控制台 + 悬浮操作岛
+## Core Features
 
-启动器的核心界面，借鉴游戏启动器的交互设计：
+### One-click ComfyUI Deployment
 
-- **全屏终端控制台**：实时显示 ComfyUI 运行日志，带 macOS 风格装饰栏（红黄绿三点），支持复制/清空
-- **右下角悬浮操作岛**：一键启动/停止 ComfyUI、打开 Web UI、切换实例
-- **启动参数配置**：齿轮弹窗内设置端口号、GPU 显存模式（High/Normal）、自定义启动参数
-- **快捷目录入口**：底部工具条一键打开 models / output / custom_nodes / workflows 目录和 Python 终端
-- **环境自动校验**：启动前检测 Python、GPU 等环境，异常时提供端口冲突解决方案
+No manual Python environment setup required. Deploy from zero to runnable in just a few clicks:
+
+- **Version selection**: choose from official ComfyUI releases and download automatically
+- **GPU acceleration options**: NVIDIA default / CUDA 12.6 / CUDA 12.8 (recommended) / AMD ROCm
+- **Optional preinstalled components**: ComfyUI-Manager, DD Translation, KJ Nodes, WAN Video Wrapper, and more
+- **Visual installation progress**: step-by-step progress (download -> extract -> install components)
+- **Failure recovery**: switch mirrors, import local packages, or skip failed steps
+- **One-click launch after deployment**: start ComfyUI immediately when setup completes
+
+![Quick deployment - choose version, GPU acceleration, and optional components](screenshots/deployment.png)
+
+![Deployment completed - all steps succeeded, one-click launch](screenshots/deployment-progress.png)
+
+---
+
+### Home: Console + Floating Action Island
+
+The core launcher page with game-launcher-inspired interaction:
+
+- **Full-size terminal console**: real-time ComfyUI logs with macOS-style decoration bar (red/yellow/green dots), copy/clear supported
+- **Bottom-right floating action island**: start/stop ComfyUI, open Web UI, switch instance
+- **Launch parameter configuration**: set port, GPU memory mode (High/Normal), and custom startup arguments
+- **Quick folder access**: open models / output / custom_nodes / workflows and Python terminal from bottom toolbar
+- **Automatic environment checks**: validates Python, GPU, and runtime prerequisites before launch
 
 ![English + Light Theme](screenshots/light-theme-english.png)
 
 ---
 
-### 🤖 AI 智能诊断
+### AI Diagnosis
 
-当 ComfyUI 启动失败或运行异常时，AI 助手自动帮你排查问题：
+When ComfyUI fails to start or behaves abnormally, the AI assistant helps diagnose and repair:
 
-- **一键分析日志**：将最近的控制台日志发送给 AI 进行诊断
-- **自动生成修复方案**：AI 给出具体的修复命令（pip install / git 操作等）
-- **用户确认后执行**：修复命令需用户审批后才会执行，高风险操作有二次确认
-- **执行后自动验证**：修复完成后自动重启 ComfyUI 验证是否修复成功
-- **一键回滚**：如果修复效果不佳，可一键回滚变更
-- **支持多种 AI 服务商**：在 AI 设置页配置 API Key 即可使用（支持自定义 API 端点）
+- **One-click log analysis**: send recent console logs for diagnosis
+- **Auto-generated repair plan**: returns concrete repair commands (pip, git, etc.)
+- **Execution with approval**: commands require user approval; high-risk actions require extra confirmation
+- **Post-repair verification**: can restart ComfyUI automatically and verify results
+- **One-click rollback**: rollback changes if repair quality is unsatisfactory
+- **Multiple AI providers supported**: configure API key and endpoint in AI Settings
 
-![AI 诊断 — 自动分析日志、生成修复方案、一键执行修复](screenshots/ai-diagnosis.png)
+![AI diagnosis - analyze logs, generate repair plan, execute with one click](screenshots/ai-diagnosis.png)
 
-![AI 设置 — 配置 AI 服务商、API Key、连接测试](screenshots/ai-settings.png)
-
----
-
-### 🔍 Model Finder — 模型智能匹配
-
-核心差异化功能：加载工作流，自动找到缺失的模型并匹配下载源。
-
-- **拖拽或浏览加载工作流**：支持 JSON / PNG 格式的 ComfyUI 工作流文件
-- **自动扫描已有模型**：对照当前实例的 models 目录，识别「已有」与「缺失」
-- **多源自动匹配**：从内置模型目录（1000+ 条）中匹配候选，来源覆盖 HuggingFace / HuggingFace Mirror / ModelScope
-- **在线搜索补充**：对于未自动匹配的模型，支持 Civitai / HuggingFace / Bing 在线搜索
-- **逐个或批量操作**：确认候选 / 拒绝匹配 / 下载单个 / 一键下载全部已匹配模型
-- **批量分析**：支持选择多个工作流文件、或直接选择整个文件夹批量分析
-- **结果导出**：分析结果可导出为 CSV / JSON，方便记录和分享
-
-![Model Finder — 拖拽或选择工作流文件开始分析](screenshots/model-finder-empty.png)
-
-![Model Finder — 加载工作流后自动匹配模型下载源](screenshots/model-finder.png)
+![AI settings - provider, API key, and connection test](screenshots/ai-settings.png)
 
 ---
 
-### 🧩 依赖分析（工作流插件分析）
+### Model Finder - Smart Model Matching
 
-综合分析工作流所需的自定义节点插件：
+A key differentiator: load a workflow, detect missing models, and match download sources automatically.
 
-- **插件依赖检测**：识别工作流所需的自定义节点插件，列出已安装 / 缺失
-- **一键安装缺失插件**：通过 Git Clone 自动安装缺失的 custom_nodes
-- **自动安装 Python 依赖**：安装插件后自动运行 pip install requirements
-- **批量分析**：支持多文件 / 整文件夹批量分析
+- **Load workflow by drag-and-drop or file picker**: supports JSON / PNG ComfyUI workflows
+- **Scan existing local models**: detect "already installed" vs "missing"
+- **Automatic multi-source matching**: built-in model catalog (1000+ entries), including HuggingFace / HuggingFace Mirror / ModelScope
+- **Online search fallback**: Civitai / HuggingFace / Bing search for unmatched models
+- **Single or batch actions**: accept candidate / reject candidate / download one / download all matched
+- **Batch analysis**: analyze multiple workflow files or entire folders
+- **Export results**: CSV / JSON output for sharing and records
 
-![依赖分析 — 分析工作流所需插件，一键安装缺失项](screenshots/dependency-analysis.png)
+![Model Finder - start by dragging or selecting workflow files](screenshots/model-finder-empty.png)
 
----
-
-### 📦 实例/包管理
-
-管理多个 ComfyUI 安装环境（便携包）：
-
-- **接管现有便携包**：直接添加已有的 ComfyUI 目录，不修改原有配置
-- **版本信息一览**：每个实例显示 Python 版本（含环境类型）、PyTorch 版本、ComfyUI 版本、插件数量、磁盘占用
-- **设为默认实例**：一键切换首页启动的默认包
-- **PyTorch 版本管理**：查看/切换 PyTorch 版本（CUDA 11.8 / 12.1 / 12.6 / 12.8 等）
-- **ComfyUI 内核升级**：查看内核版本列表，一键升级或回滚
-- **环境导出/导入**：导出 `pip freeze` 环境配置，或从配置文件导入还原环境
-- **终端工具**：直接打开 Python 终端，执行 pip list / pip install / pip uninstall / pip show
-- **pip 缓存清理**：释放 pip 下载缓存空间
-
-![包管理 — 多实例管理，一眼掌握所有环境版本信息](screenshots/package-manager.png)
-
-![PyTorch 版本管理 — 可视化切换 PyTorch/CUDA 版本](screenshots/pytorch-manager.png)
+![Model Finder - auto-matched model sources after workflow load](screenshots/model-finder.png)
 
 ---
 
-### 🧰 插件管理
+### Dependency Analysis (Workflow Plugin Analysis)
 
-已安装自定义节点的专属管理页面：
+Analyze custom node dependencies required by workflows:
 
-- **自动扫描**：扫描 custom_nodes 目录，获取插件名称、Git 远程 URL、大小等信息
-- **搜索与筛选**：按名称搜索，快速定位插件
-- **插件操作**：打开文件夹 / 打开 GitHub 页面 / 删除插件
-- **版本切换**：查看插件的 Git 提交历史，切换到指定版本
-- **插件回滚**：回滚到上一个 Git 提交
-- **依赖管理**：检测并安装插件的 Python 依赖
+- **Plugin dependency detection**: list installed and missing custom nodes
+- **One-click installation for missing plugins**: auto install with Git clone
+- **Automatic Python dependency install**: runs pip install for requirements
+- **Batch analysis**: supports multiple files or whole folders
 
-![插件管理 — 49 个插件一目了然，支持版本切换和依赖管理](screenshots/plugin-management.png)
+![Dependency analysis - detect missing plugins and install with one click](screenshots/dependency-analysis.png)
 
 ---
 
-### 📊 硬件监控
+### Package / Instance Management
 
-实时了解你的硬件运行状况：
+Manage multiple ComfyUI environments (portable packages):
 
-- **硬件配置**：系统版本、CPU 型号、内存、显卡型号与显存、主板信息
-- **磁盘空间**：各分区容量 / 已用 / 剩余空间，可视化进度条
-- **网络验证**：内置多节点测速（HuggingFace / ModelScope / GitHub / Civitai 等），自动推荐最佳下载源
-- **配置报告**：一键复制完整硬件 + 网络报告到剪贴板，方便求助
+- **Take over existing portable packages**: add existing ComfyUI directories without modifying original files
+- **Version overview**: Python version (with env type), PyTorch version, ComfyUI version, plugin count, disk usage
+- **Set default instance**: choose which package launches by default on Home
+- **PyTorch version manager**: switch among versions (CUDA 11.8 / 12.1 / 12.6 / 12.8, etc.)
+- **ComfyUI core upgrade**: view version list, upgrade or rollback
+- **Environment export/import**: export `pip freeze`, import to restore
+- **Terminal tools**: open Python terminal, run pip list / install / uninstall / show
+- **pip cache cleanup**: free pip download cache
 
-![硬件监控 — 硬件配置、磁盘空间、多源网络测速](screenshots/hardware-monitor.png)
+![Package manager - multi-instance management with complete environment info](screenshots/package-manager.png)
 
----
-
-### 🔄 批量出图（Batch Queue）
-
-通过 ComfyUI API 自动化批量生成：
-
-- **加载工作流 JSON**：选择要批量执行的 ComfyUI 工作流
-- **指定替换参数**：设置目标节点 ID 和字段名，支持从提示词文件批量替换
-- **重复次数 / 随机种子**：设定重复执行次数，可开启随机种子
-- **自动重启间隔**：设置 ComfyUI 自动重启间隔，避免内存泄漏
-- **自定义输出目录**：指定图片输出路径
-- **可断点恢复**：批量任务意外中断后，恢复进度继续执行
-
-![批量任务 — 加载工作流、设置参数、自动化批量生成](screenshots/batch-queue.png)
+![PyTorch version manager - visual switch for PyTorch/CUDA versions](screenshots/pytorch-manager.png)
 
 ---
 
-### 📁 模型管理
+### Plugin Management
 
-本地模型文件的可视化浏览与管理：
+Dedicated page for installed custom nodes:
 
-- **模型扫描**：扫描模型目录，按分类浏览已有模型
-- **搜索与筛选**：按文件名搜索，按类型（checkpoint / lora / vae 等）分类筛选
-- **信息展示**：文件名、类型、大小一目了然
-- **快捷操作**：打开所在目录、删除模型
+- **Automatic scanning**: discover plugin name, Git remote URL, size, and more
+- **Search and filter**: quickly locate plugins by name
+- **Plugin actions**: open folder / open GitHub page / delete plugin
+- **Version switching**: browse commit history and switch to a target commit
+- **Rollback**: return to previous Git commit
+- **Dependency management**: detect and install Python dependencies
 
-![模型管理 — 模型库可视化浏览、搜索、分类筛选](screenshots/model-management.png)
-
----
-
-### ⬇️ 下载中心
-
-全局下载任务管理中心，所有模型下载任务统一管理：
-
-- **实时进度**：显示下载速度、已下载大小、剩余时间、完成百分比
-- **任务控制**：暂停 / 恢复 / 取消下载
-- **批量管理**：一键清除已完成任务
-- **路径详情**：展开查看下载目标路径
-
-![下载中心 — 全局下载任务管理，实时进度与控制](screenshots/download-center.png)
+![Plugin management - clear list, version switching, and dependency management](screenshots/plugin-management.png)
 
 ---
 
-### ⚙️ 设置
+### Hardware Monitor
 
-丰富的个性化配置：
+Real-time system and network visibility:
 
-- **界面语言**：简体中文 / English / 跟随系统，切换后即时生效
-- **界面主题**：深色 / 浅色模式切换
-- **配色方案**：海洋蓝等多种主题配色方案
-- **界面密度**：舒适 / 紧凑模式，适配不同屏幕尺寸
-- **减少动画**：可关闭过渡动画，提升低配体验
-- **侧边栏状态**：控制启动时侧边栏默认展开或收起
+- **Hardware details**: OS version, CPU, RAM, GPU and VRAM, motherboard
+- **Disk usage**: partition capacity / used / free with progress bars
+- **Network verification**: built-in multi-node speed test (HuggingFace / ModelScope / GitHub / Civitai, etc.)
+- **Config report**: copy complete hardware + network report to clipboard
 
-![设置 — 界面语言、主题、配色方案、密度等个性化配置](screenshots/settings.png)
+![Hardware monitor - hardware overview, disk usage, and network speed tests](screenshots/hardware-monitor.png)
 
 ---
 
-## 🎨 用户界面
+### Batch Queue
 
-ModelFinder 采用 **Windows Fluent Design** 设计语言，提供现代、沉浸式的操作体验：
+Automate large-scale generation through ComfyUI API:
 
-- 🌙 **深色/浅色主题**：深色主题精心调校，浅色主题同样美观
-- ✨ **流畅动画**：页面切换与交互动效丝滑流畅（可在设置中关闭）
-- 📐 **密度可调**：紧凑模式 / 舒适模式，适配不同屏幕
-- 🌐 **双语切换**：中文 / English 实时切换，无需重启
-- 🎮 **游戏启动器式交互**：右下角悬浮操作岛、macOS 风格终端装饰
-- 📌 **可收起侧边栏**：12 个导航入口，侧边栏可折叠
+- **Load workflow JSON**
+- **Parameter replacement**: set target node ID and field, supports batch prompt replacement from files
+- **Repeat count / random seed**
+- **Auto-restart interval**: avoid long-run memory leaks
+- **Custom output directory**
+- **Resume from interruption**
 
-![About Author — 侧边栏收起模式 + 浅色主题](screenshots/about-author.png)
-
----
-
-## 💻 系统要求
-
-| 项目 | 要求 |
-|------|------|
-| **操作系统** | Windows 10 (22H2+) / Windows 11 |
-| **运行时** | 无需额外安装（已内置） |
-| **磁盘空间** | 启动器本体 ~100 MB |
-| **显卡** | 运行 ComfyUI 建议 NVIDIA GPU（支持 CUDA）或 AMD GPU（支持 ROCm） |
-
-> 📌 ModelFinder 本身是启动器/管理工具，ComfyUI 的运行需求取决于你要跑的模型和工作流。
+![Batch queue - load workflow, configure parameters, run automated batch generation](screenshots/batch-queue.png)
 
 ---
 
-## 📥 安装与使用
+### Model Management
 
-### 下载安装
+Visual browsing and management for local model files:
 
-1. 前往 [**Releases 页面**](https://github.com/hu-haibin/ModelFinder-Releases/releases/latest) 下载最新版本
-2. 解压到任意目录（建议非系统盘）
-3. 运行 `ModelFinder.exe` 即可启动
+- **Model scanning**
+- **Search and filtering**: by filename and type (checkpoint / lora / vae, etc.)
+- **Metadata overview**: filename, type, size
+- **Quick actions**: open folder, delete model
 
-> 💡 **免安装便携版**，解压即用，不写注册表，不污染系统环境。
+![Model management - model library browsing, search, and category filtering](screenshots/model-management.png)
 
-### 快速上手
+---
 
+### Download Center
+
+Unified download task management:
+
+- **Live progress**: speed, downloaded size, remaining time, completion percent
+- **Task control**: pause / resume / cancel
+- **Batch cleanup**: clear completed tasks
+- **Path details**: inspect download destination paths
+
+![Download center - unified task management with real-time progress and controls](screenshots/download-center.png)
+
+---
+
+### Settings
+
+Comprehensive personalization options:
+
+- **Language**: Simplified Chinese / English / Follow system
+- **Theme**: dark / light
+- **Color schemes**: multiple accent palettes (for example Ocean Blue)
+- **UI density**: comfortable / compact
+- **Reduced motion**: disable transition animations on low-end devices
+- **Sidebar startup state**: default expanded or collapsed
+
+![Settings - language, theme, color scheme, density, and more](screenshots/settings.png)
+
+---
+
+## User Interface
+
+ModelFinder follows **Windows Fluent Design** to provide a modern and immersive experience:
+
+- **Dark/light theme** tuned for long-session usability
+- **Smooth animations** for transitions and interactions (optional)
+- **Adjustable density** for different screen sizes
+- **Bilingual switching** in real time (Chinese / English)
+- **Game-launcher-style interaction** with floating action island and terminal chrome
+- **Collapsible sidebar** with 12 navigation entries
+
+![About Author - collapsed sidebar mode + light theme](screenshots/about-author.png)
+
+---
+
+## System Requirements
+
+| Item | Requirement |
+|------|-------------|
+| **OS** | Windows 10 (22H2+) / Windows 11 |
+| **Runtime** | No extra installation required (bundled) |
+| **Disk Space** | Launcher itself ~100 MB |
+| **GPU** | NVIDIA (CUDA) or AMD (ROCm) recommended for ComfyUI workloads |
+
+> ModelFinder is a launcher/manager. Actual runtime requirements depend on your selected models and workflows.
+
+---
+
+## Installation and Usage
+
+### Download and Run
+
+1. Go to the [**latest release**](https://github.com/hu-haibin/ModelFinder-Releases/releases/latest)
+2. Extract to any directory (non-system drive recommended)
+3. Run `ModelFinder.exe`
+
+> Portable and no installer needed. Extract and run.
+
+### Quick Start
+
+```text
+First launch -> Use deployment wizard to install ComfyUI (version/GPU/components)
+             -> Or add your existing ComfyUI portable package in Package Manager
+
+Home         -> Click Start -> Watch real-time logs -> Open Web UI when Ready
+
+Model Finder -> Drop workflow -> Detect missing models -> Confirm matches -> Download all
+
+Dependency Analysis -> Load workflow -> Detect missing plugins -> One-click install
+
+Batch Queue   -> Load workflow -> Configure parameters -> Start batch generation
 ```
-首次启动 → 部署向导安装 ComfyUI（选版本/GPU/组件，一键部署）
-         → 或者在「包管理」页添加已有的 ComfyUI 便携包
-
-首页     → 点击启动按钮 → 控制台实时显示日志 → Ready 后点击「打开 Web」
-
-Model Finder → 拖入工作流文件 → 自动检测缺失模型 → 确认匹配 → 下载全部
-
-依赖分析    → 加载工作流 → 检测缺失插件 → 一键安装
-
-批量出图    → 加载工作流 → 设置参数 → 开始批量生成
-```
 
 ---
 
-## 🔄 从旧版升级
+## Upgrading from Older Versions
 
-如果你之前使用的是 **ComfyLauncher**（v1.3.x 及更早版本）：
+If you previously used **ComfyLauncher** (v1.3.x and older):
 
-- ModelFinder 会**自动迁移**你的配置数据（`%AppData%/ComfyLauncher` → `%AppData%/ModelFinder`）
-- 新旧可执行文件名均可识别（`ComfyLauncher.exe` / `ModelFinder.exe`），升级无缝
-- 首次通过旧入口启动时会显示品牌变更提示
+- ModelFinder will **automatically migrate** your config (`%AppData%/ComfyLauncher` -> `%AppData%/ModelFinder`)
+- Both executable names are recognized (`ComfyLauncher.exe` / `ModelFinder.exe`) for seamless transition
+- A branding-change notice is shown when launching from old entry points for the first time
 
 ---
 
-## ❓ 常见问题
+## FAQ
 
 <details>
-<summary><b>Q: ModelFinder 和绘世启动器有什么区别？</b></summary>
+<summary><b>Q: What is the difference between ModelFinder and HuiShi Launcher?</b></summary>
 
-两款都是优秀的 ComfyUI 启动管理工具，侧重点不同：
+Both are excellent ComfyUI launcher tools, but they focus on different strengths:
 
-- **Model Finder（模型匹配）**：ModelFinder 的核心差异化 —— 自动解析工作流、匹配缺失模型的下载源（HuggingFace/ModelScope/Civitai），大幅缩短「拿到别人工作流但缺模型」的排查时间
-- **AI 诊断**：启动出错时 AI 自动分析日志、生成修复命令并执行
-- **批量出图**：通过 ComfyUI API 自动化批量执行工作流
-- **PyTorch 版本管理**：可视化切换 PyTorch/CUDA 版本
-- **UI 风格**：Windows Fluent Design 暗色主题，游戏启动器式交互
+- **Model Finder capability**: automatic workflow parsing and missing-model source matching (HuggingFace / ModelScope / Civitai)
+- **AI diagnosis**: auto analyze startup failures and generate/execute repair commands
+- **Batch Queue**: automate repeated workflow execution via ComfyUI API
+- **PyTorch version management**: visual switching for PyTorch/CUDA versions
+- **UI style**: Windows Fluent dark-theme-first, game-launcher-like interaction
 
 </details>
 
 <details>
-<summary><b>Q: 需要单独安装 Python 或 .NET 吗？</b></summary>
+<summary><b>Q: Do I need to install Python or .NET separately?</b></summary>
 
-**不需要。** ModelFinder 是独立运行的便携程序，所有依赖已内置。ComfyUI 的 Python 环境由部署向导自动配置。
-
-</details>
-
-<details>
-<summary><b>Q: 支持接管已有的 ComfyUI 便携包吗？</b></summary>
-
-**支持。** 在「包管理」页面点击「添加目录」选择你已有的 ComfyUI 根目录即可，ModelFinder 不会修改你的原有文件。
+No. ModelFinder is portable and ships with required dependencies. ComfyUI Python setup is handled by the deployment wizard.
 
 </details>
 
 <details>
-<summary><b>Q: 支持 AMD 显卡吗？</b></summary>
+<summary><b>Q: Can it manage my existing ComfyUI portable package?</b></summary>
 
-**支持。** 部署时可选择 AMD ROCm 模式。已有的 AMD 环境也可直接导入管理。
-
-</details>
-
-<details>
-<summary><b>Q: AI 诊断功能怎么用？需要额外配置吗？</b></summary>
-
-需要在「AI 设置」页面配置 AI 服务的 API Key 和端点（支持多种服务商）。配置后，首页浮动操作岛上会出现「AI 诊断」按钮，ComfyUI 启动失败时可一键分析。
+Yes. In Package Manager, click "Add Directory" and select your existing ComfyUI root folder. Existing files are not modified.
 
 </details>
 
 <details>
-<summary><b>Q: 是否支持 macOS 或 Linux？</b></summary>
+<summary><b>Q: Is AMD GPU supported?</b></summary>
 
-目前仅支持 **Windows 10/11**。跨平台支持暂未列入近期计划。
+Yes. You can choose AMD ROCm during deployment, and existing AMD environments can also be imported.
 
 </details>
 
 <details>
-<summary><b>Q: 这个工具免费吗？</b></summary>
+<summary><b>Q: How do I use AI diagnosis? Is extra setup required?</b></summary>
 
-**免费使用。** ModelFinder 当前版本完全免费。
+Configure API key and endpoint in AI Settings (multiple providers supported). Then use the AI diagnosis entry from Home when startup fails.
+
+</details>
+
+<details>
+<summary><b>Q: Is macOS or Linux supported?</b></summary>
+
+Currently only **Windows 10/11** is supported.
+
+</details>
+
+<details>
+<summary><b>Q: Is this tool free?</b></summary>
+
+Yes. The current version of ModelFinder is free to use.
 
 </details>
 
 ---
 
-## 🤝 反馈与交流
+## Feedback
 
-- **Bug 反馈 / 功能建议**：请在 [Issues](https://github.com/hu-haibin/ModelFinder-Releases/issues) 中提交
-- **如果觉得好用**：请给个 ⭐ Star，这是对作者最大的鼓励！
+- **Bug reports / feature requests**: open an issue in [Issues](https://github.com/hu-haibin/ModelFinder-Releases/issues)
+- If ModelFinder helps you, a star is highly appreciated
 
 ---
 
-## 📄 许可与声明
+## License and Notice
 
-ModelFinder launcher 在此仓库发布编译后的可执行程序。  
-感谢ComfyUI 官方开源，在长达一年的接触中学习了不少有用的知识和技能
+ModelFinder is closed-source software. This repository provides compiled release binaries only.
+ModelFinder is not officially affiliated with ComfyUI. ComfyUI is an independent open-source project.
 
 ---
 
 <div align="center">
 
-**ModelFinder** — 让 ComfyUI 的使用，从「部署地狱」变成「开箱即用」
+**ModelFinder** - Turn ComfyUI from setup friction into out-of-box productivity.
 
 Made with ❤️ for the AI Art Community
 
