@@ -245,11 +245,14 @@ ModelFinder follows **Windows Fluent Design** to provide a modern and immersive 
 
 ### Download and Run
 
-1. Go to the [**latest release**](https://github.com/hu-haibin/ModelFinder-Releases/releases/latest)
-2. Extract to any directory (non-system drive recommended)
-3. Run `ModelFinder.exe`
+Two options are available from the [**latest release**](https://github.com/hu-haibin/ModelFinder-Releases/releases/latest):
 
-> Portable and no installer needed. Extract and run.
+| Option | File | Notes |
+|--------|------|-------|
+| **Setup Installer** | `ModelFinderLauncher-Setup-vX.X.X.exe` | Recommended — standard install/uninstall, Start Menu shortcut |
+| **Portable ZIP** | `ModelFinderLauncher-win-x64-portable-vX.X.X.zip` | No install needed — extract anywhere and run `ModelFinder.exe` |
+
+> Both options are self-contained — no Python or .NET installation required.
 
 ### Quick Start
 
